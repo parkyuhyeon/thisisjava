@@ -1,4 +1,4 @@
-package sec06;
+package sec06.package1;
 
 public class A {
 	protected String field;
