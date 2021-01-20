@@ -10,7 +10,7 @@ public class CarExample {
 		myCar.frontLeftTire = new KumhoTire();
 		myCar.frontRightTire = new KumhoTire();
 		
-		myCar.run();
+		myCar.run(); 
 	}
 
 }
