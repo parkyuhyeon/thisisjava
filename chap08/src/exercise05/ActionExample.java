@@ -8,7 +8,7 @@ public class ActionExample {
 				System.out.println("복사를 합니다.");
 			}
 		};
-		action.work();
+		action.work();	
 	}
 
 }
