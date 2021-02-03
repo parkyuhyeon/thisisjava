@@ -4,7 +4,7 @@ public class Member implements Comparable<Member> {
 
 	String name;
 	
-	Member(String name) {
+	public Member(String name) {
 		this.name = name;
 	}
 	
