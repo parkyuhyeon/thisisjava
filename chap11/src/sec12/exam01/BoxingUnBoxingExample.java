@@ -3,17 +3,19 @@ package sec12.exam01;
 public class BoxingUnBoxingExample {
 
 	public static void main(String[] args) {
-		// 자동 Boxing
-		Integer obj = 100;
-		System.out.println("value: " + obj.intValue());
+		// Boxing
+		Integer obj1 = new Integer(100);
+		Integer obj2 = new Integer("200");
+		Integer obj3 = Integer.valueOf("300");
 		
-		// 대입 시 자동 Unboxing
-		int value = obj;
-		System.out.println("value: " + value);
+		// Unboxing
+		int value1 = obj1.intValue();
+		int value2 = obj2.intValue();
+		int value3 = obj3.intValue();
 		
-		// 연산 시 자동 Unboxing
-		int result = obj + 100;
-		System.out.println("result: " + result);
+		System.out.println(value1);
+		System.out.println(value2);
+		System.out.println(value3);
 	}
 
 }
