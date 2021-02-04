@@ -1,4 +1,4 @@
-package sec12.exam01;
+package sec12.exam03;
 
 public class StringToPrimitiveValueExample {
 
