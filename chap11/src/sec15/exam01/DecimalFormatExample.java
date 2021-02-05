@@ -1,4 +1,4 @@
-package sec14.exam02;
+package sec15.exam01;
 
 import java.text.DecimalFormat;
 
