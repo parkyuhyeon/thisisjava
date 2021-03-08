@@ -3,7 +3,7 @@ package sec04;
 public class UsingThis {
 	public int outterField = 10;
 	
-	class Innter {
+	class Inner {
 		int innerFiled = 20;
 		
 		void method() {
