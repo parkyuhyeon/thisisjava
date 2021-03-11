@@ -1,4 +1,4 @@
-package sec04;
+package sec04.exam01;
 
 public class UsingThis {
 	public int outterField = 10;
