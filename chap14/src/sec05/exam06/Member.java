@@ -3,9 +3,9 @@ package sec05.exam06;
 public class Member {
 	private String name;
 	private String id;
-	private String address;
+	private Address address;
 	
-	public Member(String name, String id, String address) {
+	public Member(String name, String id, Address address) {
 		this.name = name;
 		this.id = id;
 		this.address = address;
@@ -13,5 +13,5 @@ public class Member {
 	
 	public String getName() { return name; }
 	public String getId() { return id; }
-	public String getAddress() { return address; }
+	public Address getAddress() { return address; }
 }
