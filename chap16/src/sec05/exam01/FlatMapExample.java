@@ -1,4 +1,4 @@
-package sec05;
+package sec05.exam01;
 
 import java.util.Arrays;
 import java.util.List;
