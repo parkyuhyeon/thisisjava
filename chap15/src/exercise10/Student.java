@@ -15,6 +15,4 @@ public class Student implements Comparable<Student> {
 		else if (score == o.score) return 0;
 		else return 1;
 	}
-	
-	
 }
